@@ -3,9 +3,10 @@
 
 
 def hello_name(user_name):
-    print("hello, " + user_name.upper() + "!" )
+    user_name= input("enter your name:")
+    print("hello_" + user_name.upper() + "!" )
 
-hello_name("gnarf")    
+hello_name("")    
 
 #question 2
 #Write a python function, first_odds that prints the odd numbers from 1-100 and returns nothing
